@@ -1,81 +1,74 @@
-⚡ Electric Vehicle Data Analysis & Forecasting
+🔋 Electric Vehicle (EV) Population Data Analysis
 
-This project explores and visualizes the adoption trends, geographical distribution, manufacturer preferences, and performance metrics of electric vehicles (EVs) using real-world registration data. It also forecasts the EV market trajectory using exponential growth modeling.
+This repository provides a comprehensive exploratory data analysis (EDA) and trend forecasting of Electric Vehicle registrations using real-world EV data.
+
+📊 Project Overview
+
+This project analyzes trends in electric vehicle adoption, regional preferences, popular manufacturers and models, and electric range statistics. It also forecasts future adoption using exponential curve fitting.
 
 📁 Dataset
-The dataset used in this project is the Electric Vehicle Population Data sourced from the Washington State Department of Licensing.
+The dataset used is:
 
-Source: Washington State Open Data Portal
+Electric_Vehicle_Population_Data.csv
+Source: [Washington State Department of Licensing or other similar public domain]
 
-Format: CSV
+It contains key information including:
 
-Features Include:
+Vehicle Make & Model
 
 Model Year
-
-Make & Model
 
 Electric Range
 
 County & City
 
-Electric Vehicle Type
+EV Type (Battery Electric, Plug-in Hybrid, etc.)
 
-🧠 Key Insights & Objectives
-🔍 Data Cleaning & Inspection
+🛠️ Libraries Used
+pandas
 
-Null value handling
+numpy
 
-Data types and structure analysis
+matplotlib
 
-📈 EV Adoption Over Time
+seaborn
 
-Visualization of model year-wise registrations
+scipy.optimize
 
-🗺️ Geographical Distribution
+📈 Key Analyses & Visualizations
+✅ Data Preprocessing
+Loaded dataset using pandas
 
-Top counties and cities by EV registrations
+Identified and removed null entries to ensure data quality
 
-🚘 Vehicle Type Analysis
+📉 EV Adoption Over Time
+Bar chart showing yearly trend of EV registrations
 
-Breakdown of EV types (BEV, PHEV, etc.)
+🌍 Geographic Insights
+Top 3 counties with highest registrations
 
-🏭 Top Manufacturers & Models
+Top cities within those counties
 
-Make and model popularity among EVs
+Bar plots visualizing city-wise distribution
 
-🔋 Electric Range Distribution
+🚗 Vehicle Type & Make
+Distribution of EV types (Battery Electric, Plug-in Hybrid, etc.)
 
-Analyzing how far EVs go on a single charge
+Top 10 popular EV manufacturers
 
-📊 Forecasting Future Registrations
+Top models within top 3 manufacturers
 
-Predicting EV growth using exponential modeling
+⚡ Electric Range Analysis
+Histogram showing range distribution
 
-🛠️ Tech Stack
-Language: Python
+Line plot showing average electric range by year
 
-Libraries:
+Top 10 EV models by electric range within popular manufacturers
 
-pandas for data manipulation
+📈 Growth Forecasting
+Fitted exponential curve to historical registration data
 
-matplotlib, seaborn for data visualization
+Forecasted EV registrations from 2024 to 2029
 
-scipy.optimize.curve_fit for forecasting
+Visualized actual vs forecasted adoption trends
 
-numpy for numerical operations
-
-📊 Visual Highlights
-EV Adoption Over Time
-
-
-Top Cities by EV Registrations
-
-
-Popular EV Makes and Models
-
-
-Electric Range Distribution
-
-
-EV Registration Forecast
