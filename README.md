@@ -1,4 +1,5 @@
 ⚡ Electric Vehicle Data Analysis & Forecasting
+
 This project explores and visualizes the adoption trends, geographical distribution, manufacturer preferences, and performance metrics of electric vehicles (EVs) using real-world registration data. It also forecasts the EV market trajectory using exponential growth modeling.
 
 📁 Dataset
